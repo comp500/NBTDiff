@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "nbtdiff",
+	"version": "${version}",
+	"name": "NBTDiff",
+	"description": "",
+	"authors": [],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"link.infra.nbtdiff.NBTDiff"
+		]
+	},
+	"mixins": [
+		"nbtdiff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.9.0+build.204",
+		"fabric": "*",
+		"minecraft": "1.16.1"
+	}
+}
